@@ -1,0 +1,123 @@
+body {
+  background-color: #24252d;
+  color: white;
+}
+
+.navbar {
+  background-color: #24252d;
+  border-bottom: grey solid 0.5px;
+}
+
+.navbar a {
+  height: 100%;
+}
+
+.banner {
+  background-image: url("../images/Banner.png");
+  height: 286px ;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+/* Styles related to the card */
+
+img .card {
+  width: 100px;
+  border-radius: 12px;
+  height: 214px;
+  object-fit: cover;
+}
+
+#container1 {
+  
+
+  /* Center the container in middle on horizontal axis */
+  margin: auto;
+
+  /* Add empty space above the container (20% of the view height) */
+  margin-top: 20vh;
+
+
+  
+}
+
+.grid-container {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+ 
+}
+
+
+
+.card {
+  /* Change background-color */
+  background-color: white;
+  margin: 0;
+  /* Add border */
+  border: 1px solid #bacdd8;
+
+  /* Add space between the border and the content */
+  padding: 8px;
+
+  border-radius: 12px;
+
+  max-width: 200px;
+}
+
+/* Style div elements that has class equal to tag */
+.tag  {
+  padding: 4px;
+  border: 1px solid #e5eaed;
+
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+}
+
+/* Style div elements that has class equal to name*/
+.name {
+  font-size: 24px;
+  font-weight: 600;
+
+  margin-top: 16px;
+}
+
+/* Style p element */
+p {
+  font-size: 14px;
+  color: #7f8c9b;
+  line-height: 150%;
+}
+
+/* Style button element */
+button  {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+
+  font-weight: 600;
+  color: #0077ff;
+  background-color: #e0efff;
+
+  /* Button is an inline-block element by default, it need to have block display for margin: 0 auto; to work */
+  margin: 0 auto;
+  display: block;
+
+  /* Button is a clickable element, therefoire it should have a pointer cursor */
+  cursor: pointer;
+}
+
+/* Add style when button is focused or hovered */
+button:focus,
+button:hover  {
+  background-color: #0077ff;
+  color: #e0efff;
+}
+
+.card-details {
+  /* Add space around the details */
+  padding: 16px 8px 8px 8px;
+}
